@@ -1,0 +1,22 @@
+body{
+    font-family: Inter, Inter;
+    background-color:#ebf2ff;
+    text-decoration-color: #0f0f0f; 
+}
+@keyframes color-change {
+        0% {
+          color: red;
+        }
+      
+        50% {
+          color: blue;
+        }
+      
+        100% {
+          color: red;
+        }
+    }
+    
+    h1 {
+        animation: color-change 3s infinite;
+    }
